@@ -1,0 +1,38 @@
+export const projects = [
+  {
+    title: 'OpenSea',
+    description: "OpenSea clone with the ability to connect a wallet, view NFT's collections and buy them. ",
+      image: '/images/opensea-preview.png',
+      tags: ['NextJS', 'Web3.0', 'Sanity', 'Tailwind'],
+    source: 'https://github.com/ParamonovLTD/open-sea',
+    visit: 'https://open-sea-lilac.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'Music player',
+    description:"Music platform where you can add, search and delete tracks, and also leave comments under other tracks",
+    image: '/images/spotify-preview.png',
+    tags: ['NextJS', 'Redux', 'NestJS', 'MongoDB'],
+    source: 'https://github.com/ParamonovLTD/spotify',
+    visit: 'https://spotify-front1.herokuapp.com/',
+    id: 1,
+  },
+  {
+    title: 'Fire Department Site',
+    description: "Educational project in university with RBAC, adding and passing test (coming soon)",
+      image: '/images/firebrakers-preview.png',
+      tags: ['React', 'Redux', 'NestJS', 'MongoDB'],
+    source: 'https://github.com/ParamonovLTD/firebrakers',
+    visit: 'http://www.firebrakers.ru/',
+    id: 2,
+  },
+  {
+    title: 'Tesla',
+    description: "Responsive Tesla main page with basic stuff like responsive sidebar and animations",
+    image: '/images/tesla-preview.png',
+    tags: ['React', 'Redux', 'Express.js'],
+    source: 'https://github.com/ParamonovLTD/tesla',
+    visit: 'https://tesla7.herokuapp.com/',
+    id: 3,
+  },
+];
